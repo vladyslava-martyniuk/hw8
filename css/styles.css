@@ -1,0 +1,62 @@
+    .text-box>:first-child {
+        color: pink;
+    }
+    #greycol {
+        color: grey;
+    }
+    div~p {
+        color: green;
+    }
+    div~div>p {
+        color: red;
+    }
+    .yellow {
+        color: yellow;
+    }
+    .list-mon a[href*="https"] {
+        color: green; 
+    }
+    .list-tue a[href*="https"] {
+        color: aqua; 
+    }
+    .list-wed a[href*="https"] {
+        color: yellow; 
+    
+    }
+    .list-thur a[href*="https"] {
+            color:purple; 
+        }
+     .frid a[href*="https"] {
+            color: pink; 
+       }
+    .list-mon a:hover {
+        color:red;
+    }
+    .list-mon>:nth-child(2)  {
+     font-size: 20px;
+    }
+    .list-tue a:active{
+        color: blueviolet;
+    }
+    .list-tue>:nth-child(3){
+        background-color: yellow;
+    }
+    .list-wed a:focus {
+        color: aqua;
+    }
+    .list-wed>:nth-child(4){
+        font-size: 11px;
+    }
+    .list-thur a:visited {
+        font-size: 36px;
+    
+    }
+    .list-thur>:nth-child(5){
+        background-color: gold;
+    }
+    .frid a:not(list){
+        background-color: purple;
+    }
+    .frid>:last-child{
+      font-size:11px;
+    }
