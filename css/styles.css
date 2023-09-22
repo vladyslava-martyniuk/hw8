@@ -13,6 +13,7 @@
     .yellow {
         color: yellow;
     }
+
     .list-mon a[href*="https"] {
         color: green; 
     }
@@ -32,26 +33,26 @@
     .list-mon a:hover {
         color:red;
     }
-    .list-mon>:nth-child(2)  {
+    .list-mon>:first-child  {
      font-size: 20px;
     }
     .list-tue a:active{
         color: blueviolet;
     }
-    .list-tue>:nth-child(3){
+    .list-tue>:nth-child(2){
         background-color: yellow;
     }
     .list-wed a:focus {
         color: aqua;
     }
-    .list-wed>:nth-child(4){
+    .list-wed>:nth-child(3){
         font-size: 11px;
     }
     .list-thur a:visited {
         font-size: 36px;
     
     }
-    .list-thur>:nth-child(5){
+    .list-thur>:nth-child(4){
         background-color: gold;
     }
     .frid a:not(list){
